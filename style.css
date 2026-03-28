@@ -66,11 +66,22 @@ ul {
 
 .main {
     display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .review-container {
     display: flex;
     justify-content: center;
+    gap: 50px;
+    padding-bottom: 150px;
 }
 
 .review {
@@ -80,4 +91,11 @@ ul {
 
 .review-img {
     border: solid #3882F6 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.review-text {
+    width: 200px;
 }
