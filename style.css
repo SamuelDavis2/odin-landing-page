@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
+    font-optical-sizing: auto;
 }
 
 li {
@@ -116,4 +116,36 @@ ul {
 
 .quote-name {
     align-self: flex-end;
+}
+
+.ad-section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad {
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    border-radius: 10px;
+}
+
+.ad-copy {
+    color: #E5E7EB;
+}
+
+.ad-button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: solid #F9FAF8 3px;
 }
