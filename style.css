@@ -149,3 +149,12 @@ ul {
     background-color: #3882F6;
     border: solid #F9FAF8 3px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
